@@ -2,21 +2,21 @@ package solvd.lab.homework2;
 
 public class History{
 
-    private String countryName;
+    private Country country;
 
     private String score;
 
     private int prizePool;
 
-    public History(String countryName, String score, int prizePool){
-        this.countryName = countryName;
+    public History(Country country, String score, int prizePool){
+        this.country = country;
         this.score = score;
         this.prizePool = prizePool;
     }
 
-    public String getCountryName(){return countryName;}
+    public Country getCountryName(){return country;}
 
-    public void setCountryName(String countryName){this.countryName = countryName;}
+    public void setCountryName(Country countryName){this.country = countryName;}
 
     public String getScore(){return score;}
 

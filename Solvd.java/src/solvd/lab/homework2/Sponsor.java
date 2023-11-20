@@ -1,6 +1,6 @@
 package solvd.lab.homework2;
 
-public class Sponsors{
+public class Sponsor{
 
     private String company;
 
@@ -8,7 +8,7 @@ public class Sponsors{
 
     private int money;
 
-    public Sponsors(String company, String supporting, int money){
+    public Sponsor(String company, String supporting, int money){
         this.company = company;
         this.supporting = supporting;
         this.money = money;
